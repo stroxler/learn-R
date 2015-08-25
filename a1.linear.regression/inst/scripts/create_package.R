@@ -1,0 +1,5 @@
+require(devtools)
+devtools::create('a1.linear.regression')
+setwd('a1.linear.regression')
+devtools::use_vignette('Assignment 1: Linear Regression')
+devtools::use_testthat()

@@ -1,0 +1,14 @@
+Package: a1.linear.regression
+Title: R implementations for Coursera ML
+Description: Provide R implementations of functions for Assignment 1 in Andrew
+             Ng's Coursera Machine Learning course. The purpose is to serve as an
+             example of the code in R, as opposed to matlab, and also as an example
+             of developing an R package with proper package structure, tests, and vignettes.
+Version: 0.0.0.9000
+Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
+Depends: R (>= 3.2.1)
+License: GPL
+LazyData: true
+Suggests: testthat,
+    knitr
+VignetteBuilder: knitr

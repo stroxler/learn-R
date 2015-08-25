@@ -1,0 +1,29 @@
+---
+title: 'Assignment 1: Linear Regression'
+output: html_document
+---
+
+
+In Rstudio, you can click the **Knit** button to knit a this Rmarkdown document.
+
+We keep our raw text data, downloaded from Andrew Ng's Coursera course, in plain
+`.txt` files. Normally data is saved under the `data` directory in `.Rdata` files,
+but since this is the first assignment, we leave the data in text format.
+
+Hence, following Hadley Wickham's recommendations, we place the data in
+`inst/extdata`. We can load it with the `read.csv` function, the only trick
+is that we need to find the path to the data using `system.file`:
+
+```{r}
+library('a1.linear.regression')
+path = system.file("extdata", "ex1data1.txt",   package="a1.linear.regression")
+data1 = read.csv(path)
+```
+
+We can plot the data in R using the basic plotting package:
+
+```{r}
+plot(data1$X6.1101, data1$X17.592, xlab = 'Population of city in 10K', ylab = 'Profit in $10K')
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

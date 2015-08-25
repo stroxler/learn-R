@@ -1,6 +1,13 @@
-# Repository following along with Andrew Ng's Coursera Machine Learning Course
+# Grab-bag for work as I learn / relearn R
 
-This repository has two main purposes, for my personal development
-  1. Get back into shape with R by going through some Machine Learning basics
-  2. Practice using good development practices in R: packages for code, and
-     vignettes for reports.
+I did a lot of R in grad school, but (a) my R is very rusty, and (b) after
+working more in python and Java with professional software engineers, my
+standards for 'knowing' a language have grown to include standard packaging /
+documentation / testing.
+
+This repository is to help me as I work through various books, courses,
+and tutorial, seeking to
+  - Refresh my statistical computing skills, which are out-of-practice
+  - Re-learn R basics
+  - Learn proper R software engineering
+  - Learn to integrate C and C++ with R

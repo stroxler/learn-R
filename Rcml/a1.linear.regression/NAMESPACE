@@ -2,3 +2,4 @@
 
 export(J)
 export(betahat_normaleqn)
+export(gradient_descent_step)

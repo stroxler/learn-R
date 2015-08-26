@@ -26,4 +26,11 @@ We can plot the data in R using the basic plotting package:
 plot(data1$X6.1101, data1$X17.592, xlab = 'Population of city in 10K', ylab = 'Profit in $10K')
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+Note that the `echo = FALSE` parameter can be added to the code chunk to prevent
+printing of the R code that generated the plot. We don't do that here since our
+goal is to learn.
+
+```{r}
+X = matrix(data1[,1], dim(data1)[1], 1)
+y = data1[,2]
+```

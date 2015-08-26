@@ -1,0 +1,12 @@
+Package: rcppex
+Title: Demonstrate a package using Rcpp
+Version: 0.1
+Authors@R: "First Last <first.last@example.com> [aut, cre]"
+Description: Demonstrate calling Rcpp from in a package context.
+Depends:
+    R (>= 3.1.1)
+License: What license is it under?
+LazyData: true
+LinkingTo: Rcpp
+Imports:
+    Rcpp

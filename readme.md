@@ -11,3 +11,4 @@ and tutorial, seeking to
   - Re-learn R basics
   - Learn proper R software engineering
   - Learn to integrate C and C++ with R
+
